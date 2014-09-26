@@ -4,12 +4,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Salary Caculator</title> 
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
 </head>
 <body>
     <form id="form1" runat="server">
     <div>
-    
+    <h1>Salary Caculator</h1>
     </div>
     </form>
 </body>
