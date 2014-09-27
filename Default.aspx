@@ -11,6 +11,25 @@
     <form id="form1" runat="server">
     <div>
     <h1>Salary Caculator</h1>
+        <p>&nbsp;</p>
+        <p>Hourly Wage:
+            <asp:TextBox ID="txtb_wage" runat="server"></asp:TextBox>
+        </p>
+        <p>Hours Worked:
+            <asp:TextBox ID="txtb_hours" runat="server"></asp:TextBox>
+        </p>
+        <p>Pre-Tax Deduction:
+            <asp:TextBox ID="txtb_pretax" runat="server"></asp:TextBox>
+        </p>
+        <p>After-Tax Deduction:
+            <asp:TextBox ID="txtb_aftertax" runat="server"></asp:TextBox>
+        </p>
+        <p>
+            <asp:Button ID="Btn_clear" runat="server" Text="Clear" />
+&nbsp;
+            <asp:Button ID="btn_caculate" runat="server" Text="Caculate" />
+        </p>
+        <p>&nbsp;</p>
     </div>
     </form>
 </body>
