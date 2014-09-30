@@ -13,16 +13,16 @@
     <h1>Salary Caculator</h1>
         <p>&nbsp;</p>
         <p>Hourly Wage:
-            <asp:TextBox ID="txtb_wage" runat="server" TextMode="Number" Width="78px"></asp:TextBox>
+            <asp:TextBox ID="txtb_wage" runat="server" Width="78px"></asp:TextBox>
         </p>
         <p>Hours Worked:
-            <asp:TextBox ID="txtb_hours" runat="server" TextMode="Number" Width="69px"></asp:TextBox>
+            <asp:TextBox ID="txtb_hours" runat="server" Width="69px"></asp:TextBox>
         </p>
         <p>Pre-Tax Deduction:
-            <asp:TextBox ID="txtb_pretax" runat="server" TextMode="Number" Width="73px"></asp:TextBox>
+            <asp:TextBox ID="txtb_pretax" runat="server" Width="73px">0</asp:TextBox>
         </p>
         <p>After-Tax Deduction:
-            <asp:TextBox ID="txtb_aftertax" runat="server" TextMode="Number" Width="77px"></asp:TextBox>
+            <asp:TextBox ID="txtb_aftertax" runat="server" Width="77px">0</asp:TextBox>
         </p>
         <p>
             <asp:Label ID="lbl_results" runat="server"></asp:Label>
