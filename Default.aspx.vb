@@ -2,9 +2,6 @@
 Partial Class _Default
     Inherits System.Web.UI.Page
 
-    Protected Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles txtb_hours.TextChanged
-
-    End Sub
 
     Protected Sub Btn_clear_Click(sender As Object, e As EventArgs) Handles Btn_clear.Click
         ' Clear out textboxes and results label
@@ -39,8 +36,8 @@ Partial Class _Default
         ' assign variables
         Dim wage As Decimal = txtb_wage.Text
         Dim hours As Decimal = txtb_hours.Text
-        Dim pretax As Decimal = txtb_pretax.Text
-        Dim after As Decimal = txtb_aftertax.Text
+        Dim pretax As Decimal = Val(txtb_pretax.Text)
+        Dim after As Decimal = Val(txtb_aftertax.Text)
         Dim result As Decimal
         Dim taxes As Decimal
 

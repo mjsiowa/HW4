@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    <h1>Salary Caculator</h1>
+    <h1>Salary Calculator</h1>
         <p>&nbsp;</p>
         <p>Hourly Wage:
             <asp:TextBox ID="txtb_wage" runat="server" Width="78px"></asp:TextBox>
